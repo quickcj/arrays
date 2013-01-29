@@ -45,6 +45,22 @@ public class arrays {
 		}
 		return counter;
 	}
+	/**
+	 * numthrees
+	 * 		finds the number of 3's in an array
+	 *
+	 * @param nums - an array of ints
+	 * @return the number of threes
+	 */
+	public static int numthrees(int[] nums) {
+		int counter = 0;
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 3) {
+				counter = counter + 1;
+			}
+		}
+		return counter;
+	}
 
 
 }
