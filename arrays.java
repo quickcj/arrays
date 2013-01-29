@@ -12,7 +12,7 @@ public class arrays {
 	public static void main(String[] args) {
 		int[] nums = {3, 6, 4, 3, 2, 1, 5, 6};
 
-		System.out.println(avg(nums));
+		System.out.println(numThrees(nums));
 		
 	}
 	/**
@@ -46,13 +46,13 @@ public class arrays {
 		return counter;
 	}
 	/**
-	 * numthrees
+	 * numThrees
 	 * 		finds the number of 3's in an array
 	 *
 	 * @param nums - an array of ints
 	 * @return the number of threes
 	 */
-	public static int numthrees(int[] nums) {
+	public static int numThrees(int[] nums) {
 		int counter = 0;
 		for (int i = 0; i < nums.length; i++) {
 			if (nums[i] == 3) {
